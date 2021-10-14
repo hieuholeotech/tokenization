@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  color: #000;
+}
+
+.wrap {
+  background-image: url('https://demoapus2.com/houzing/wp-content/uploads/2021/07/slider6.jpg');
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+}
+
+.center-inner-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.inner-left {
+    margin-top: -20%;
+    width: 75%;
+}
+
+.banner-title {
+    color: #0061DF;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.content h3 {
+    color: #8e8e8e;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.content .form-control {
+    box-shadow: 0px 10px 50px 0px rgb(13 38 59 / 14%);
+    border: none;
+    padding: 7px 20px;
+    font-size: 13px;
+    height: calc(2.5em + .75rem + 2px);
+}
+
+.p-ralative {
+    position: relative;
+}
+
+.btn-atw {
+    position: absolute;
+    right: 8px;
+    top: 0;
+    clear: both;
+    background: #0061DF;
+    margin-top: 7px;
+    font-size: 13px;
+}
+
+.buy-token code {
+    background: #eaeaeaa8;
+    display: block;
+    padding: 8px 15px;
+    padding-top: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: #1b1b1b;
+    margin-top: -11px;
+}
+
+.buy-token .balance span {
+    font-weight: 700;
+    color: #0061DF;
+}
+
+.buy-token .tut {
+    color:#848484;
+}
+
+.bmt-btn {
+    background: #0061DF;
+    font-size: 13px;
+}
+
+.footer-sign {
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+    transform: translateX(-30%);
+}
+
+.footer-sign img {
+    width: 170px;
+    opacity: 0.7;
+}
