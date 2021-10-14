@@ -9,7 +9,7 @@ import getWeb3 from "./getWeb3";
 import "./App.css";
 
 class App extends Component {
-  state = { loaded:false,kycAddress:"",tokenSaleAddress:null,userTokens:0};
+  state = { loaded: false, kycAddress: "", tokenSaleAddress: null, userTokens: 0};
 
   componentDidMount = async () => {
     try {
